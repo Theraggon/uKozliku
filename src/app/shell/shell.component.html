@@ -1,7 +1,21 @@
 <mat-sidenav-container>
-  <mat-sidenav> </mat-sidenav>
+  <mat-sidenav #sidenav role="navigation">
+    <mat-nav-list>
+      <a mat-list-item routerLink="/home" (click)="sidenav.close()"
+        ><mat-icon>home</mat-icon><span class="nav-caption">Home</span></a
+      >
+      <a mat-list-item routerLink="/pizza" (click)="sidenav.close()"
+        ><mat-icon>local_pizza</mat-icon
+        ><span class="nav-caption">Pizza</span></a
+      >
+      <a mat-list-item routerLink="/drinks" (click)="sidenav.close()"
+        ><mat-icon>local_bar</mat-icon
+        ><span class="nav-caption">Nápoje</span></a
+      >
+    </mat-nav-list>
+  </mat-sidenav>
   <mat-sidenav-content>
-    <app-header> </app-header>
+    <app-header (sidenavToggle)="sidenav.toggle()"> </app-header>
     <main><router-outlet></router-outlet></main>
   </mat-sidenav-content>
 </mat-sidenav-container>
