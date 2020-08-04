@@ -1,14 +1,23 @@
-<mat-toolbar color="primary">
-  <div fxHide.gt-xs>
-    <button mat-icon-button (click)="onToggleSidenav()">
-      <mat-icon>menu</mat-icon>
-    </button>
+<mat-toolbar
+  color="primary"
+  fxLayoutGap="var(--spacing-medium)"
+  fxLayoutAlign="space-between center "
+>
+  <div fxLayout="row" fxLayoutGap="var(--spacing-medium)">
+    <div fxHide.gt-sm>
+      <button mat-icon-button (click)="onToggleSidenav()">
+        <mat-icon>menu</mat-icon>
+      </button>
+    </div>
+    <div class="logo">
+      <a routerLink="/home" class="mat-display-1">U Kozliků</a>
+    </div>
   </div>
-  <div>
-    <a routerLink="/home">U Kozlíků</a>
-  </div>
-  <div fxLayout fxHide.xs>
-    <mat-nav-list fxFlex fxLayoutGap="1em" fxLayout="row">
+  <div fxLayout fxHide.lt-md>
+    <mat-nav-list fxFlex fxLayoutGap="var(--spacing-medium)" fxLayout="row">
+      <a mat-list-item routerLink="/home"
+        ><mat-icon>home</mat-icon><span class="nav-caption">Domů</span></a
+      >
       <a mat-list-item routerLink="/pizza"
         ><mat-icon>local_pizza</mat-icon
         ><span class="nav-caption">Pizza</span></a
@@ -17,16 +26,12 @@
         ><mat-icon>local_bar</mat-icon
         ><span class="nav-caption">Nápoje</span></a
       >
-      <a mat-list-item routerLink="/news"
-        ><mat-icon>notifications</mat-icon
-        ><span class="nav-caption">Novinky</span></a
-      >
+
       <a mat-list-item routerLink="/contact"
-        ><mat-icon>contact_page</mat-icon
         ><span class="nav-caption">Kontakt</span></a
       >
       <a mat-list-item routerLink="/career"
-        ><mat-icon>work</mat-icon><span class="nav-caption">Zaměstnání</span></a
+        ><span class="nav-caption">Zaměstnání</span></a
       >
     </mat-nav-list>
   </div>
