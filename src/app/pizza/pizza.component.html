@@ -1,1 +1,48 @@
-<p>pizza works!</p>
+<div fxLayout="column">
+  <table fxFlex="80" fxFlex.lt-md="90" fxFlex.xs="95">
+    <tr>
+      <th></th>
+      <th>
+        Malá
+      </th>
+      <th>
+        Velká
+      </th>
+      <th></th>
+    </tr>
+    <ng-container *ngFor="let pizza of pizzas$ | async as pizzas">
+      <tr>
+        <td>{{ pizza.id }}. {{ pizza.name }}</td>
+        <td>{{ pizza.small }},- {{ currency }}</td>
+        <td>{{ pizza.big }},- {{ currency }}</td>
+        <td>{{ formatIngredients(pizza.ingredients) }}</td>
+      </tr>
+    </ng-container>
+  </table>
+
+  <div
+    fxFlex="80"
+    fxFlex.lt-md="90"
+    fxFlex.xs="95"
+    fxLayout="column"
+    fxLayoutAlign="center center"
+  >
+    <h2>Extra přísady na pizzu:</h2>
+    <table>
+      <tr>
+        <th></th>
+        <th>
+          Cena
+        </th>
+      </tr>
+      <tr
+        *ngFor="let ingredient of extraIngredients$ | async as extraIngredients"
+      >
+        <td>
+          {{ formatIngredients(ingredient.ingredients) }}
+        </td>
+        <td>{{ ingredient.price }},- Kč</td>
+      </tr>
+    </table>
+  </div>
+</div>
