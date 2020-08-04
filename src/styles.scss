@@ -15,8 +15,8 @@
 // Color palette used:
 // https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=FFCC80&secondary.color=8D6E63
 // Chooser of the colors: Š.Š.
-$uKozliku-primary: mat-palette($mat-orange, A200);
-$uKozliku-accent: mat-palette($mat-brown, A400);
+$uKozliku-primary: mat-palette($mat-orange, 200);
+$uKozliku-accent: mat-palette($mat-brown, 400);
 
 // The warn palette is optional (defaults to red).
 $uKozliku-warn: mat-palette($mat-red);
@@ -35,6 +35,12 @@ $uKozliku-theme: mat-light-theme(
 
 /* You can add global styles to this file, and also import other style files */
 
+:root {
+  --spacing-small: 0.5em;
+  --spacing-medium: 1em;
+  --spacing-large: 2.5em;
+}
+
 html,
 body {
   height: 100%;
@@ -42,4 +48,8 @@ body {
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.wrapper {
+  margin: 0 auto;
 }
