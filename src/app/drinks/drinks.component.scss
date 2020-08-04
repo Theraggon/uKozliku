@@ -1,6 +1,7 @@
 :host {
   display: block;
   min-height: 200px;
+  margin-bottom: var(--spacing-large);
 }
 table {
   border-collapse: collapse;

@@ -13,17 +13,14 @@ section {
 }
 
 a {
-  text-decoration: none;
   &:link {
     color: #5e4238;
   }
   &:hover {
     color: #8c6d62;
-    text-decoration: underline;
   }
   &:active {
     color: #8c6d62;
-    text-decoration: underline;
   }
 }
 
