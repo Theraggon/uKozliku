@@ -1,0 +1,50 @@
+[
+  { "ingredients": ["vejce", "česnek", "chilli"], "price": 10 },
+  {
+    "ingredients": [
+      "žampiony",
+      "fazolové lusky",
+      "hrášek",
+      "kukuřice",
+      " brokolice",
+      "rajčata",
+      "cibule",
+      "špenátové listy"
+    ],
+    "price": 20
+  },
+  {
+    "ingredients": ["paprika", "porek", "beraní rohy", "sýr", "kapari"],
+    "price": 20
+  },
+  {
+    "ingredients": [
+      "slanina",
+      "salám",
+      "šunka",
+      "klobása",
+      "olivy",
+      "ananas",
+      "chřest"
+    ],
+    "price": 30
+  },
+  {
+    "ingredients": [
+      "kuřecí maso",
+      "hermelín",
+      "niva",
+      "mozzarella",
+      "mleté maso"
+    ],
+    "price": 35
+  },
+  {
+    "ingredients": ["parmská šunka", "plody moře", "tuňák", "vepřová panenka"],
+    "price": 40
+  },
+  {
+    "ingredients": ["pikantní italský salám", "sušená rajčata", "losos"],
+    "price": 45
+  }
+]

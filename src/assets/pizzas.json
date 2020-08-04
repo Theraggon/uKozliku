@@ -1,0 +1,366 @@
+[
+  {
+    "id": 1,
+    "name": "Margharita",
+    "small": 90,
+    "big": 120,
+    "ingredients": ["sugo", "sýr"]
+  },
+  {
+    "id": 2,
+    "name": "Funghi",
+    "small": 95,
+    "big": 125,
+    "ingredients": ["sugo", "sýr", "žampióny"]
+  },
+  {
+    "id": 3,
+    "name": "Bambino",
+    "small": 110,
+    "big": 135,
+    "ingredients": ["sugo", "sýr", "šunka"]
+  },
+  {
+    "id": 4,
+    "name": "Hawai",
+    "small": 125,
+    "big": 150,
+    "ingredients": ["sugo", "sýr", "šunka", "ananas"]
+  },
+  {
+    "id": 5,
+    "name": "Capriciosa",
+    "small": 130,
+    "big": 160,
+    "ingredients": ["sugo", "sýr", "šunka", "žampióny", "olivy"]
+  },
+  {
+    "id": 6,
+    "name": "Quatro Formaggi",
+    "small": 135,
+    "big": 170,
+    "ingredients": ["sugo", "4 druhy sýra"]
+  },
+  {
+    "id": 7,
+    "name": "Vegetariana",
+    "small": 130,
+    "big": 165,
+    "ingredients": [
+      "sugo",
+      "sýr",
+      "žampiony",
+      "brokolice",
+      "kukuřice",
+      "paprika",
+      "rajče"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Pfeferony",
+    "small": 135,
+    "big": 175,
+    "ingredients": [
+      "sugo",
+      "sýr",
+      "klobása",
+      "slanina",
+      "beranní rohy",
+      "chilli"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Casseto",
+    "small": 135,
+    "big": 170,
+    "ingredients": [
+      "sugo",
+      "sýr",
+      "slanina",
+      "špenátové listy",
+      "česnek",
+      "vejce"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Vasco",
+    "small": 135,
+    "big": 170,
+    "ingredients": [
+      "sugo",
+      "sýr",
+      "kuřecí maso",
+      "slanina",
+      "rajče",
+      "brokolice",
+      "česnek"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Vaškovice",
+    "small": 140,
+    "big": 175,
+    "ingredients": ["sugo", "sýr", "salám", "kuřecí maso", "cibule", "chilli"]
+  },
+  {
+    "id": 12,
+    "name": "Bájovka",
+    "small": 130,
+    "big": 160,
+    "ingredients": ["sugo", "sýr", "rajče", "paprika", "slanina", "česnek"]
+  },
+  {
+    "id": 13,
+    "name": "Salamino",
+    "small": 130,
+    "big": 160,
+    "ingredients": ["sugo", "sýr, salám", "zelené olivy"]
+  },
+  {
+    "id": 14,
+    "name": "Prosciutto",
+    "small": 140,
+    "big": 180,
+    "ingredients": ["sugo", "sýr", "parmská šunka"]
+  },
+  {
+    "id": 15,
+    "name": "Tonno",
+    "small": 130,
+    "big": 160,
+    "ingredients": ["sugo", "sýr", "tuňák", "cibule"]
+  },
+  {
+    "id": 16,
+    "name": "Hermelínová",
+    "small": 130,
+    "big": 165,
+    "ingredients": ["sugo", "sýr", "hermelín"]
+  },
+  {
+    "id": 17,
+    "name": "Bolzano",
+    "small": 140,
+    "big": 180,
+    "ingredients": ["bílý základ", "sýr", "kuřecí maso", "niva", "chřest"]
+  },
+  {
+    "id": 18,
+    "name": "Kozlíkovka",
+    "small": 145,
+    "big": 185,
+    "ingredients": [
+      "bílý základ",
+      "sýr",
+      "salám",
+      "slanina",
+      "cibule",
+      "parmazán"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Tropicana",
+    "small": 140,
+    "big": 175,
+    "ingredients": ["bílý základ", "sýr", "šunka", "ananas", "niva"]
+  },
+  {
+    "id": 20,
+    "name": "Ciba",
+    "small": 140,
+    "big": 180,
+    "ingredients": ["bílý základ", "sýr", "kuřecí maso", "žampiony", "kukuřice"]
+  },
+  {
+    "id": 21,
+    "name": "Frutti di Mare",
+    "small": 145,
+    "big": 180,
+    "ingredients": ["sugo", "sýr", "plody moře"]
+  },
+  {
+    "id": 22,
+    "name": "Al Capone",
+    "small": 145,
+    "big": 185,
+    "ingredients": [
+      "bílý základ",
+      "sýr",
+      "salám",
+      "kuřecí maso",
+      "cibule",
+      "česnek",
+      "vejce"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Argentinos",
+    "small": 140,
+    "big": 180,
+    "ingredients": ["lusky", "česnek", "kari"]
+  },
+  {
+    "id": 24,
+    "name": "Americana",
+    "small": 125,
+    "big": 160,
+    "ingredients": ["sugo", "sýr", "šunka", "žampiony", "kukuřice"]
+  },
+  {
+    "id": 25,
+    "name": "Messicana",
+    "small": 145,
+    "big": 190,
+    "ingredients": [
+      "sugo",
+      "sýr, salám",
+      "klobásy",
+      "cibule",
+      "beraní rohy",
+      "vejce",
+      "chilli"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Pepek námořník",
+    "small": 140,
+    "big": 170,
+    "ingredients": ["bílý základ", "sýr", "špenátové listy", "česnek", "niva"]
+  },
+  {
+    "id": 27,
+    "name": "Surimi ",
+    "big": 140,
+    "small": 170,
+    "ingredients": ["sugo", "sýr", "surimi tyčky", "cibule", "parmazán"]
+  },
+  { "id": 28, "name": "", "small": 404, "big": 404, "ingredients": [] },
+  {
+    "id": 29,
+    "name": "Hamburger",
+    "small": 140,
+    "big": 185,
+    "ingredients": [
+      "sugo",
+      "rajčata",
+      "paprika",
+      "cibule",
+      "mleté maso, mozarella"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Bianca ",
+    "small": 135,
+    "big": 185,
+    "ingredients": [
+      "bílý základ",
+      "mozarella",
+      "šunka",
+      "hermelín",
+      "černé olivy"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Di Parma",
+    "small": 140,
+    "big": 190,
+    "ingredients": ["sugo", "mozarella", "parmská šunka, rajčata", "bazalka"]
+  },
+  {
+    "id": 32,
+    "name": "Calabria",
+    "small": 140,
+    "big": 185,
+    "ingredients": [
+      "bílý základ",
+      "mozarella",
+      "slanina",
+      "červená cibule",
+      "černé olivy",
+      "vejce"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Pollo",
+    "small": 140,
+    "big": 180,
+    "ingredients": [
+      "bílý základ",
+      "mozarella",
+      "kuřecí maso",
+      "rajčata",
+      "špenátové listy"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Salamino Picante",
+    "small": 145,
+    "big": 175,
+    "ingredients": ["sugo, salám, mozzarella", "chilli"]
+  },
+  {
+    "id": 35,
+    "name": "Srdeční záležitost",
+    "big": 125,
+    "small": 165,
+    "ingredients": [
+      "bílý základ",
+      "strouhané jablko",
+      "rozinky",
+      "skořice",
+      "čokoláda"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Bačovka ",
+    "small": 140,
+    "big": 180,
+    "ingredients": ["bílý základ", "mozarella", "kysané zelí", "moravské uzené"]
+  },
+  {
+    "id": 37,
+    "name": "Lososová",
+    "big": 145,
+    "small": 195,
+    "ingredients": ["bílý základ", "mozarella", "losos", "černé olivy", "pórek"]
+  },
+  {
+    "id": 38,
+    "name": "Gladiator",
+    "small": 145,
+    "big": 195,
+    "ingredients": [
+      "sugo, bílý základ",
+      "mozzarella",
+      "pikantní italský",
+      "salám",
+      "žampiony",
+      "zelené olivy"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Palermo",
+    "small": 140,
+    "big": 195,
+    "ingredients": [
+      "sugo, bílý základ",
+      "mozarella",
+      "vepřová panenka",
+      "sušená rajčata",
+      "kapari"
+    ]
+  }
+]
