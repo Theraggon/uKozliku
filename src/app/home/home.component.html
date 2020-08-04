@@ -1,1 +1,61 @@
-<p>home works!</p>
+<div class="wrapper" fxLayoutAlign="space-around none" fxLayout="column">
+  <section fxLayoutAlign="none center" fxLayout="column" class="heading">
+    <h1 class="title mat-display-1">
+      Restaurace a pizzerie <br />
+      <span class="mat-display-4">U Kozliků</span>
+    </h1>
+  </section>
+
+  <section fxLayoutAlign="none center" fxLayout="column">
+    <h1 class="mat-h1">
+      Otevírací doba
+    </h1>
+    <div fxLayout="column" fxLayoutGap="1em">
+      <span>Neděle - Čtvrtek 11:00 - 22:00</span>
+      <span>Pátek - Sobota 11:00 - 23:00</span>
+    </div>
+  </section>
+  <mat-divider></mat-divider>
+  <section fxLayoutAlign="none center" fxLayout="column">
+    <h1 class="mat-h1">
+      Objednávky
+    </h1>
+    <div fxLayout="column" fxLayoutAlign="none center" fxLayoutGap="1em">
+      <span>Pondělí - Neděle 11:00 - 21:00</span>
+      <p>
+        <strong>Nerozvážíme</strong><br />
+        Pizzu si lze vyzvednout pouze osobně po telefonické objednávce.
+      </p>
+
+      <span>
+        <span class="cdk-visually-hidden">Telefon</span>
+        <span
+          fxLayout="row"
+          fxLayoutAlign="none center"
+          fxLayoutGap="var(--spacing-medium)"
+        >
+          <span>Telefon: </span>
+          <a href="tel:+420733609616">733 609 616</a>
+          <a href="tel:+420466652163">466 652 163</a>
+        </span>
+      </span>
+    </div>
+  </section>
+  <mat-divider></mat-divider>
+  <section fxLayoutAlign="none center" fxLayout="column">
+    <h1 class="mat-h1">
+      Adresa
+    </h1>
+    <p>
+      Spojilská 1711 Pardubice 530 03
+    </p>
+    <iframe
+      class="map"
+      style="border: none;"
+      src="https://frame.mapy.cz/s/fopobehane"
+      width="500"
+      height="400"
+      frameborder="0"
+    ></iframe>
+  </section>
+</div>

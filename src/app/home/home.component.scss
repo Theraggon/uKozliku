@@ -1,0 +1,32 @@
+@import "~@angular/material/theming";
+
+section {
+  padding: var(--spacing-large) 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.map {
+  width: 80%;
+}
+
+a {
+  text-decoration: none;
+  &:link {
+    color: #5e4238;
+  }
+  &:hover {
+    color: #8c6d62;
+    text-decoration: underline;
+  }
+  &:active {
+    color: #8c6d62;
+    text-decoration: underline;
+  }
+}
+
+p {
+  text-align: center;
+}
