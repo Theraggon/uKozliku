@@ -7,16 +7,6 @@
     {{ category.category }}
   </h2>
   <table>
-    <!-- <tr>
-      <th>
-        název
-      </th>
-      <th></th>
-      <th></th>
-      <th>
-        cena
-      </th>
-    </tr> -->
     <tr *ngFor="let drink of category.products">
       <td>
         {{ drink.name }}
@@ -26,5 +16,4 @@
       <td *ngIf="drink.price">{{ drink.price }},- {{ currency }}</td>
     </tr>
   </table>
-  <br />
 </div>

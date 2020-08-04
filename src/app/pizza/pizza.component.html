@@ -2,7 +2,7 @@
   <h2>
     Pizzy
   </h2>
-  <table fxFlex="80" fxFlex.lt-md="90" fxFlex.xs="95">
+  <table>
     <tr>
       <th></th>
       <th>
@@ -13,23 +13,15 @@
       </th>
       <th></th>
     </tr>
-    <ng-container *ngFor="let pizza of pizzas$ | async as pizzas">
-      <tr>
-        <td>{{ pizza.id }}. {{ pizza.name }}</td>
-        <td>{{ pizza.small }},- {{ currency }}</td>
-        <td>{{ pizza.big }},- {{ currency }}</td>
-        <td>{{ formatIngredients(pizza.ingredients) }}</td>
-      </tr>
-    </ng-container>
+    <tr *ngFor="let pizza of pizzas$ | async as pizzas">
+      <td>{{ pizza.id }}. {{ pizza.name }}</td>
+      <td>{{ pizza.small }},- {{ currency }}</td>
+      <td>{{ pizza.big }},- {{ currency }}</td>
+      <td>{{ formatIngredients(pizza.ingredients) }}</td>
+    </tr>
   </table>
 
-  <div
-    fxFlex="80"
-    fxFlex.lt-md="90"
-    fxFlex.xs="95"
-    fxLayout="column"
-    fxLayoutAlign="center center"
-  >
+  <div fxLayout="column" fxLayoutAlign="center center">
     <h2>Extra přísady na pizzu</h2>
     <table>
       <tr>
