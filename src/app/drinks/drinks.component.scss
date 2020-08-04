@@ -1,0 +1,21 @@
+:host {
+  display: block;
+  min-height: 200px;
+  padding: var(--spacing-large) 0;
+}
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+table > tr > td {
+  border: 1px solid #be9c91;
+  padding: var(--spacing-small);
+}
+
+table > tr:nth-child(2n) {
+  background-color: #be9c9134;
+}
+
+h2 {
+  margin-top: var(--spacing-small);
+}

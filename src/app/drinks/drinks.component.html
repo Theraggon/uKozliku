@@ -1,1 +1,30 @@
-<p>drinks works!</p>
+<div
+  fxLayout="column"
+  fxLayoutAlign="center center"
+  *ngFor="let category of drinks$ | async as drinks"
+>
+  <h2>
+    {{ category.category }}
+  </h2>
+  <table>
+    <!-- <tr>
+      <th>
+        název
+      </th>
+      <th></th>
+      <th></th>
+      <th>
+        cena
+      </th>
+    </tr> -->
+    <tr *ngFor="let drink of category.products">
+      <td>
+        {{ drink.name }}
+      </td>
+      <td *ngIf="drink.country">{{ drink.country }}</td>
+      <td *ngIf="drink.amount">{{ drink.amount }} l</td>
+      <td *ngIf="drink.price">{{ drink.price }},- {{ currency }}</td>
+    </tr>
+  </table>
+  <br />
+</div>

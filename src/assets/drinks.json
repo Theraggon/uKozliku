@@ -1,0 +1,315 @@
+[
+  {
+    "category": "Nealkoholické nápoje",
+    "products": [
+      { "name": "Čepovaná Kofola ", "amount": "0,3", "price": 15 },
+      { "name": "Čepovaná Kofola ", "amount": "0,5", "price": 25 },
+      { "name": "Čepovaná Malina", "amount": "0,3", "price": 12 },
+      { "name": "Čepovaná Malina", "amount": "0,5", "price": 20 },
+      { "name": "Rauch džus", "amount": "0,25", "price": 25 },
+      { "name": "Tonic dle nabídky", "amount": "0,3", "price": 25 },
+      { "name": "Vinea", "amount": "0,25", "price": 25 },
+      { "name": "Rajec dle nabídky", "amount": "0,33", "price": 15 }
+    ]
+  },
+
+  {
+    "category": "Teplé nápoje",
+    "products": [
+      { "name": "Espresso", "price": 28 },
+      { "name": "Cappuccino", "price": 35 },
+      { "name": "Caffé latte", "price": 35 },
+      { "name": "Alžírská káva", "price": 50 },
+      { "name": "Vídeňská káva", "price": 30 },
+      { "name": "Irská káva", "price": 70 },
+      { "name": "Turecká káva", "price": 23 },
+      { "name": "Svařené víno", "price": 40 },
+      { "name": "Svařený džus dle nabídky", "price": 30 },
+      { "name": "Čaj dle nabídky", "price": 30 },
+      { "name": "Grog", "price": 30 },
+      { "name": "Hot Cider", "price": 35 },
+      { "name": "Med 1ks", "price": 5 }
+    ]
+  },
+
+  {
+    "category": "Lahvové pivo",
+    "products": [
+      { "name": "Kozel černý", "amount": "0,5", "price": 26 },
+      { "name": "Kingswood ", "amount": "0,4", "price": 35 },
+      { "name": "Frisco dle nabídky", "amount": "0,33", "price": 30 }
+    ]
+  },
+
+  {
+    "category": "Čepované pivo",
+    "products": [
+      { "name": "Kozel 11° (tankové)", "amount": "0,3", "price": 17 },
+      { "name": "Kozel 11° (tankové)", "amount": "0,5", "price": 26 },
+      { "name": "Pilsner Urquell", "amount": "0,3", "price": 22 },
+      { "name": "Pilsner Urquell", "amount": "0,5", "price": 36 },
+      { "name": "Výběr sládků dle nabídky" }
+    ]
+  },
+
+  {
+    "category": "Rumy",
+    "products": [
+      {
+        "name": "Bayou selection ",
+        "country": "USA",
+        "amount": "0,04",
+        "price": 60
+      },
+      {
+        "name": "Bayou spiad",
+        "country": "USA",
+        "amount": "0,04",
+        "price": 60
+      },
+      { "name": "Bucanero", "country": "DOM", "amount": "0,04", "price": 50 },
+      {
+        "name": "Cubaney caramel",
+        "country": "DOM",
+        "amount": "0,04",
+        "price": 55
+      },
+      {
+        "name": "Cubaney elixir",
+        "country": "DOM",
+        "amount": "0,04",
+        "price": 55
+      },
+      {
+        "name": "Cubaney orangerie",
+        "country": "DOM",
+        "amount": "0,04",
+        "price": 55
+      },
+      {
+        "name": "Diplomatico",
+        "country": "VEN",
+        "amount": "0,04",
+        "price": 95
+      },
+      { "name": "Jamaica", "country": "JAM", "amount": "0,04", "price": 110 },
+      {
+        "name": "Legendario",
+        "country": "CUBA",
+        "amount": "0,04",
+        "price": 60
+      },
+      { "name": "Real Mceoy", "country": "USA", "amount": "0,04", "price": 90 },
+      { "name": "Ophyum 17", "country": "DOM", "amount": "0,04", "price": 135 },
+      {
+        "name": "Pampero Aniversario",
+        "country": "VEN",
+        "amount": "0,04",
+        "price": 60
+      },
+      {
+        "name": "Pampero Especial",
+        "country": "VEN",
+        "amount": "0,04",
+        "price": 45
+      },
+      {
+        "name": "Pampero Selection",
+        "country": "VEN",
+        "amount": "0,04",
+        "price": 50
+      },
+      { "name": "Papa rum", "country": "FILIP", "amount": "0,04", "price": 95 },
+      {
+        "name": "Puntacana Esplendido",
+        "country": "DOM",
+        "amount": "0,04",
+        "price": 80
+      },
+      {
+        "name": "Muy Viejo ron",
+        "country": "DOM",
+        "amount": "0,04",
+        "price": 55
+      },
+      {
+        "name": "Puntacana XOX",
+        "country": "DOM",
+        "amount": "0,04",
+        "price": 165
+      },
+      { "name": "Relicario", "country": "DOM", "amount": "0,04", "price": 90 },
+      {
+        "name": "Flor de Cana 7",
+        "country": "NIK",
+        "amount": "0,04",
+        "price": 60
+      },
+      {
+        "name": "Flor de Cana 18",
+        "country": "NIK",
+        "amount": "0,04",
+        "price": 100
+      },
+      {
+        "name": "Ron Barcelo",
+        "country": "DOM",
+        "amount": "0,04",
+        "price": 55
+      },
+      {
+        "name": "Ron Cariba",
+        "country": "KARIB",
+        "amount": "0,04",
+        "price": 45
+      },
+      {
+        "name": "Ron de Jeremy Spiced",
+        "country": "FIN",
+        "amount": "0,04",
+        "price": 85
+      },
+      {
+        "name": "Ron de Jeremy 95",
+        "country": "FIN",
+        "amount": "0,04",
+        "price": 90
+      },
+      {
+        "name": "Ron Prohibido ",
+        "country": "MEX",
+        "amount": "0,04",
+        "price": 95
+      },
+      { "name": "President", "country": "DOM", "amount": "0,04", "price": 110 },
+      {
+        "name": "Havana Club 7",
+        "country": "CUBA",
+        "amount": "0,04",
+        "price": 45
+      },
+      {
+        "name": "Bavaro brut",
+        "country": "DOM",
+        "amount": "0,04",
+        "price": 100
+      },
+      {
+        "name": "Bavaro brulee ",
+        "country": "DOM",
+        "amount": "0,04",
+        "price": 110
+      },
+      { "name": "Black Ron", "country": "DOM", "amount": "0,04", "price": 110 },
+      { "name": "Orm", "country": "DOM", "amount": "0,04", "price": 100 },
+      { "name": "Stroh 80", "country": "DOM", "amount": "0,04", "price": 65 },
+      {
+        "name": "Republika ron",
+        "country": "CZ",
+        "amount": "0,04",
+        "price": 39
+      },
+      {
+        "name": "Captain Morgan",
+        "country": "JAM",
+        "amount": "0,04",
+        "price": 40
+      },
+      {
+        "name": "Captain Morgan Black",
+        "country": "JAM",
+        "amount": "0,04",
+        "price": 50
+      },
+      { "name": "Malibu", "country": "BDS", "amount": "0,04", "price": 35 },
+      { "name": "Božkov Rum", "country": "CZ", "amount": "0,04", "price": 22 }
+    ]
+  },
+
+  {
+    "category": "Vodka",
+    "products": [
+      { "name": "Amundsen vodka", "amount": "0,04", "price": 30 },
+      { "name": "Amundsen ochucená", "amount": "0,04", "price": 25 },
+      { "name": "Smirnoff", "amount": "0,04", "price": 50 }
+    ]
+  },
+
+  {
+    "category": "Bylinné likéry",
+    "products": [
+      { "name": "Fernet Stock", "amount": "0,04", "price": 24 },
+      { "name": "Magister", "amount": "0,04", "price": 35 },
+      { "name": "Becherovka", "amount": "0,04", "price": 24 },
+      { "name": "Jägermeister", "amount": "0,04", "price": 45 }
+    ]
+  },
+
+  {
+    "category": "Likéry",
+    "products": [
+      { "name": "Božkov Peprmint", "amount": "0,04", "price": 24 },
+      { "name": "Baileys", "amount": "0,04", "price": 35 }
+    ]
+  },
+
+  {
+    "category": "Destiláty",
+    "products": [
+      { "name": "Golden Švestka ", "amount": "0,04", "price": 30 },
+      { "name": "Golden Hruška ", "amount": "0,04", "price": 30 },
+      { "name": "Gordon's London Dry Gin ", "amount": "0,04", "price": 50 }
+    ]
+  },
+
+  {
+    "category": "Tequila",
+    "products": [
+      { "name": "Sombrero Negro silver", "amount": "0,04", "price": 40 },
+      { "name": "Sombrero Negro gold", "amount": "0,04", "price": 40 }
+    ]
+  },
+
+  {
+    "category": "Brandy a Koňak",
+    "products": [
+      { "name": "Metaxa 7*", "amount": "0,04", "price": 50 },
+      { "name": "Metaxa 12*", "amount": "0,04", "price": 70 }
+    ]
+  },
+
+  {
+    "category": "Whiskey, Whisky, Bourbon",
+    "products": [
+      { "name": "Johnnie Walker Red Label", "amount": "0,04", "price": 40 },
+      {
+        "name": "Johnnie Walker Black Label 12y.o.",
+        "amount": "0,04",
+        "price": 65
+      },
+      {
+        "name": "Johnnie Walker Green Label 15y.o.",
+        "amount": "0,04",
+        "price": 85
+      },
+      { "name": "Hammer Head 23y.o. ", "amount": "0,04", "price": 195 },
+      { "name": "Singleton 12y.o. ", "amount": "0,04", "price": 70 },
+      { "name": "Cardhu 12y.o. ", "amount": "0,04", "price": 90 },
+      { "name": "Dimple 15y.o. ", "amount": "0,04", "price": 95 },
+      { "name": "Crown Royal Canadian ", "amount": "0,04", "price": 55 },
+      { "name": "J&B ", "amount": "0,04", "price": 45 },
+      { "name": "J&B medový", "amount": "0,04", "price": 50 },
+      { "name": "Jameson ", "amount": "0,04", "price": 45 },
+      { "name": "Tullamore D.E.W.", "amount": "0,04", "price": 45 },
+      { "name": "Bushmill.", "amount": "0,04", "price": 45 },
+      { "name": "Jim Beam ", "amount": "0,04", "price": 50 },
+      { "name": "Jim Beam Honey", "amount": "0,04", "price": 50 },
+      { "name": "Jamenson Cas.", "amount": "0,04", "price": 50 },
+      { "name": "Markes", "amount": "0,04", "price": 65 },
+      { "name": "Hyde bourbon", "amount": "0,04", "price": 130 },
+      { "name": "Hyde burgudy", "amount": "0,04", "price": 130 },
+      { "name": "Hyde shery", "amount": "0,04", "price": 130 },
+      { "name": "j+b", "amount": "0,04", "price": 45 }
+    ]
+  }
+]
