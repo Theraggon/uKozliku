@@ -1,4 +1,5 @@
-import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
+import { LOCALE_ID, NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDividerModule } from '@angular/material/divider';
@@ -19,7 +20,10 @@ import { NewsComponent } from './news/news.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { PizzaComponent } from './pizza/pizza.component';
 import { ShellComponent } from './shell/shell.component';
-import { HttpClientModule } from '@angular/common/http';
+import { registerLocaleData } from '@angular/common';
+import localeCs from '@angular/common/locales/cs';
+
+registerLocaleData(localeCs);
 
 @NgModule({
   declarations: [
@@ -47,7 +51,12 @@ import { HttpClientModule } from '@angular/common/http';
     MatDividerModule,
     FlexLayoutModule,
   ],
-  providers: [],
+  providers: [
+    {
+      provide: LOCALE_ID,
+      useValue: 'cs',
+    },
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

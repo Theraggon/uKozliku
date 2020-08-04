@@ -13,7 +13,9 @@
       </td>
       <td *ngIf="drink.country">{{ drink.country }}</td>
       <td *ngIf="drink.amount">{{ drink.amount }} l</td>
-      <td *ngIf="drink.price">{{ drink.price }},- {{ currency }}</td>
+      <td *ngIf="drink.price">
+        {{ drink.price | currency: "CZK":"symbol-narrow":"1.0" }}
+      </td>
     </tr>
   </table>
 </div>
