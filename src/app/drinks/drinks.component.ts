@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { DrinksService } from './drinks.service';
 import { tap } from 'rxjs/operators';
+import { ActivatedRoute } from '@angular/router';
+import { Drinks } from './drinks.model';
 
 @Component({
   selector: 'app-drinks',
@@ -8,15 +10,16 @@ import { tap } from 'rxjs/operators';
   styleUrls: ['./drinks.component.scss'],
 })
 export class DrinksComponent implements OnInit {
-  drinks$ = this.drinksService.getDrinks().pipe(
-    tap((drinks) => {
-      console.log(drinks);
-    })
-  );
+  drinks: Drinks;
 
   currency = 'Kč';
 
-  constructor(private drinksService: DrinksService) {}
+  constructor(private activatedRoute: ActivatedRoute) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.activatedRoute.data.subscribe((data: { drinks: Drinks }) => {
+      console.log(data);
+      this.drinks = data.drinks;
+    });
+  }
 }

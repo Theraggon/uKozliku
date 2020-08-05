@@ -4,6 +4,7 @@ import { tap, map } from 'rxjs/operators';
 import { Observable } from 'rxjs';
 import { Pizza } from './pizza.model';
 import { ExtraIngredient } from './extraIngredient.model';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-pizza',
@@ -11,24 +12,20 @@ import { ExtraIngredient } from './extraIngredient.model';
   styleUrls: ['./pizza.component.scss'],
 })
 export class PizzaComponent implements OnInit {
-  pizzas$: Observable<Pizza> = this.pizzaService.getPizzas().pipe(
-    tap((pizzas) => {
-      console.log(pizzas);
-    })
-  );
-  extraIngredients$: Observable<
-    ExtraIngredient
-  > = this.pizzaService.getExtraIngredients().pipe(
-    tap((ingredients) => {
-      console.log(ingredients);
-    })
-  );
+  pizzas: Pizza[];
+  extraIngredients: ExtraIngredient[];
 
-  currency = 'Kč';
+  constructor(private activatedRoute: ActivatedRoute) {}
 
-  constructor(private pizzaService: PizzaService) {}
-
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.activatedRoute.data.subscribe(
+      (data: { pizzas: Pizza[]; extras: ExtraIngredient[] }) => {
+        console.log(data);
+        this.pizzas = data.pizzas;
+        this.extraIngredients = data.extras;
+      }
+    );
+  }
 
   formatIngredients(ingredients: string[]) {
     return ingredients.join(', ');

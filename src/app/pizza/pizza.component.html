@@ -13,7 +13,7 @@
       </th>
       <th></th>
     </tr>
-    <tr *ngFor="let pizza of pizzas$ | async as pizzas">
+    <tr *ngFor="let pizza of pizzas">
       <td>{{ pizza.id }}. {{ pizza.name }}</td>
       <td>{{ pizza.small | currency: "CZK":"symbol-narrow":"1.0" }}</td>
       <td>{{ pizza.big | currency: "CZK":"symbol-narrow":"1.0" }}</td>
@@ -30,9 +30,7 @@
           Cena
         </th>
       </tr>
-      <tr
-        *ngFor="let ingredient of extraIngredients$ | async as extraIngredients"
-      >
+      <tr *ngFor="let ingredient of extraIngredients">
         <td>
           {{ formatIngredients(ingredient.ingredients) }}
         </td>
